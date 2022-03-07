@@ -27,3 +27,4 @@ info.yaml is the configuration file for create and join in channel and chaincode
 ### Start
 
 it uses `go run main.go` to start
+
