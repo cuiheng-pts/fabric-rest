@@ -1,0 +1,14 @@
+Org:
+  Admin: Admin
+  Name: Org1
+  User: User1
+  OrdererName: orderer.example.com
+Channel:
+  ID: sdktestchannel
+  Config: ${GOPATH}/src/github.com/hyperledger/fabric/multipeer/channel-artifacts/SDKchannel.tx
+  Existed: true
+Chaincode:
+  ID: sdktestcc
+  GoPath: ${GOPATH}
+  Path: "github.com/hyperledger/fabric/multipeer/chaincode/go/log/"
+  Existed: true
